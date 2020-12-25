@@ -1,0 +1,169 @@
+
+
+.head {
+    background-image: url("images/header.jpg");
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*HEADER IMAGE & STYLES*/
+
+#SKYN {
+    display: none;
+}
+
+.SKYN {
+    max-width: 25%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.dream {
+    display: none;
+}
+
+
+.create {
+    display: none;
+}
+
+
+.inspire {
+    display: none;
+}
+
+.dci img{
+    max-width: 33%;
+    float: right;
+}
+
+.dci {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+/*MAP*/
+.map-container-5{
+    overflow:hidden;
+    position:relative;
+    height:0;
+}
+
+/*PROJECT IMAGES*/
+.project-wrapper {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+  }
+  
+  .project-wrapper:hover {
+    transition: all 0.8s ease;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0.5;
+  }
+
+.project-wrapper a {
+    color: white;
+    font-size: 35px;
+}
+
+.project-wrapper a:hover {
+    transition: all 1s ease;
+    background: rgba(0, 0, 0, 0.6);
+    color: gray;
+    padding: 10px;
+}
+
+/*OPACITY IMAGES*/
+#project:hover {
+    opacity: 0.5;
+}
+
+#team {
+    opacity: 1;
+    padding: 2.5px;
+}
+
+.nameTitle {
+    font-size: 35px;
+    color: #d4a373;
+}
+
+.text-wrapper {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+  }
+  
+  .text-wrapper:hover {
+    transition: all 0.8s ease;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+  }
+
+  /*FORM POSITIONING*/
+  .form-group label {
+      text-align: left;
+      display: block;
+      font-size: 25px;
+  }
+
+/*FORM POSITIONING*/
+@media screen and (max-width: 600px) {
+    .contactTitle h2, .newsletter h2{
+    font-size: 20px !important;   
+    clear: both !important;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .newsletter div{  
+    clear: both !important;
+    width: 100% !important;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contactTitle h2, .newsletter h2{
+    font-size: 20px !important;   
+    clear: both !important;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .newsletter label, .newsletter {  
+    clear: both !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .newsletter h2{  
+    clear: both !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    }
+  }
+
